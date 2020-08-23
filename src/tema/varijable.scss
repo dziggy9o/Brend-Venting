@@ -1,0 +1,20 @@
+//lomljenje
+
+$xl: 1400px;
+$large: 1140px;
+$tablet: 1024px;
+$mobile: 640px;
+
+//boje
+
+$siva1: #575756;
+$siva2: #7c7c7b;
+$siva-gradijent: linear-gradient(to bottom, $siva1, $siva1 50%, $siva2 100%);
+$siva-gradijent2: linear-gradient(to top, $siva1, $siva1 50%, $siva2 100%);
+$sivatabela: rgba(222,224,225,1);
+$sivatabelatam: rgba(88,89,91,1);
+
+$crvena1: #e41518;
+$crvena2: #af170e;
+$crvena-gradijent: linear-gradient(to bottom, $crvena1, $crvena1 50%, $crvena2 100%);
+$crvenatabela: #ed2526;

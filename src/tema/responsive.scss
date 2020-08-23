@@ -1,0 +1,140 @@
+@import 'varijable.scss';
+
+@media screen and (min-width: $xl) {
+    .sadrzaj {
+        .vh {
+            .vhs {
+                width: $large;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: $xl) {
+    body {
+        overflow-x: hidden;
+    }
+    .vh {
+        .vhs {
+            width: 100%;
+        }
+    }
+    .sadrzaj {
+        overflow-x: hidden;
+        
+        .proizvodi {
+            width: 100%;
+        }
+        .uredjaj {
+            width: 100%;
+            .ikone {
+                .ikonica {
+                    .tekstikonice {
+                        width: 145%;
+                        margin-left: -40px;
+                    }
+                }
+            }
+        }
+        .vf {
+            .vfs {
+                width: 100%;
+            }
+        }
+    }
+}
+@media screen and (max-width: $large) {
+    //.sadrzaj {
+    //    width: $tablet;
+    //}
+}
+@media screen and (max-width: $tablet) {
+    .vh {
+        .vhs {
+            .navigacija {display: none;}
+            .navigacijaMob {display: block;}
+        }
+    }
+    .sadrzaj {
+        
+        .proizvodi {
+            .katfilter {
+                display: none;
+            }
+            .katfilterMob {
+                display: block;
+            }
+            .vpretraga {
+                position: fixed;
+                top: 40px;
+                background: white;
+                z-index: 100;
+                
+            }
+            .proizvod {
+                width: 50%;
+                .sadrzajproizvoda {
+                    .slikaproizvoda {
+                        height: 290px;
+                    }
+                }
+            }
+        }
+        .vf {
+            .vfs {
+                .vf-informacije {
+                    .linkovi {
+                        width: 100%;
+                        text-align: center;
+                        margin-bottom: 10px;
+                    }
+                    p {
+                        width: 100%;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+        
+    }
+}
+@media screen and (max-width: $mobile) {
+    .sadrzaj {
+        width: 100%;
+        .proizvodi {
+            .proizvod {
+                width: 100%;
+                .sadrzajproizvoda {
+                    .slikaproizvoda {
+                        height: 240px;
+                    }
+                }
+            }
+            .odabirKatMob {
+                .centar {
+                a {
+                    width: 33%;
+                }
+            }
+            }
+
+        }
+        .vf {
+            .vfs {
+                .vf-kontakt {
+                    p {
+                        font-size: .5em;
+                    }
+                }
+                .vf-informacije {
+                    .linkovi {
+                        font-size: .8em;
+                    }
+                    p {
+                        font-size: .7em;
+                    }
+                }
+            }
+        }   
+    }
+}
