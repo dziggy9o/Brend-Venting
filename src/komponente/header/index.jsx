@@ -12,7 +12,7 @@ export const Header = () => {
     const [skrollKlasa, setSkrollKlasu] = useState('')
         useEffect(() => {
             window.addEventListener('scroll', () => {
-                window.scrollY === 100px ? setSkrollKlasu('') : setSkrollKlasu('skroll')
+                window.scrollY === '100px' ? setSkrollKlasu('') : setSkrollKlasu('skroll')
             })
         })
     const prikaziSakri = () => {
